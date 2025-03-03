@@ -33,19 +33,21 @@ A combined Python/Bash solution for scheduled vulnerability scanning with system
 ##  Quick Start
 
 1. Clone repository:
-   git clone https://github.com/yourusername/vuln-scanner-suite.git
-   cd vuln-scanner-suite
+   `git clone https://github.com/yourusername/vuln-scanner-suite.git`
+   `cd vuln-scanner-suite`
 2. Install Python dependencies:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 3. Configure targets:
-   echo "http://test-site.com" > targets.txt
+   `echo "http://test-site.com" > targets.txt`
 4. Run full suite:
-   ./scan_manager.sh 
+   `./scan_manager.sh`
 
 ## Security Note
 
-   - Store targets.txt outside version control
+   - Store `targets.txt` outside version control
    - Run with minimal privileges
    - Audit scan targets regularly
    - Use in compliance with all applicable laws
+
+WIP
   

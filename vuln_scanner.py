@@ -8,7 +8,6 @@ from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
 
-# Configuration
 TARGETS_FILE = "/path/to/targets.txt"
 REPORTS_DIR = "/path/to/reports"
 SCAN_INTERVAL = 86400  
@@ -79,11 +78,9 @@ def generate_pdf_report():
     doc = SimpleDocTemplate(report_file, pagesize=letter)
     story = []
     
-    # Title
     story.append(Paragraph("Vulnerability Scan Report", styles['Title']))
     story.append(Spacer(1, 12))
     
-    # Process Nmap results
     story.append(Paragraph("Network Scan Results (Nmap):", styles['Heading2']))
     for file in os.listdir(REPORTS_DIR):
         if file.startswith('nmap_scan'):
@@ -94,7 +91,6 @@ def generate_pdf_report():
     
     story.append(PageBreak())
     
-    # Process Nikto results
     story.append(Paragraph("Web Application Scan Results (Nikto):", styles['Heading2']))
     for file in os.listdir(REPORTS_DIR):
         if file.startswith('nikto_scan'):

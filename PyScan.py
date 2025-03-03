@@ -9,8 +9,8 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
 
 # Configuration
-TARGETS_FILE = "targets.txt"
-REPORTS_DIR = "reports"
+TARGETS_FILE = "/path/to/targets.txt"
+REPORTS_DIR = "/path/to/reports"
 SCAN_INTERVAL = 86400  
 
 def create_directories():

@@ -6,7 +6,6 @@ A combined Python/Bash solution for scheduled vulnerability scanning with system
 
 ### **Core Scanner** (`vuln_scanner.py`)
 - Python-based scanning engine
-- Features:
   - Nmap network scanning with CVE detection
   - Nikto web application checks
   - PDF report generation
@@ -14,7 +13,6 @@ A combined Python/Bash solution for scheduled vulnerability scanning with system
 
 ### **System Manager** (`scan_manager.sh`)
 - Bash automation wrapper
-- Features:
   - Pre-flight dependency checks
   - Report rotation/archiving
   - Scan scheduling integration

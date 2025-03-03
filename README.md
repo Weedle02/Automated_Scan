@@ -20,6 +20,6 @@ A Python script that performs scheduled network and web application vulnerabilit
  - Format: vulnerability_report_TIMESTAMP.pdf
 
 ## Disclamer
- - Use only on authorized systems. The maintainers are not responsible for misuse of this tool.
+ - Use only on authorized systems. The owner is not responsible for misuse of this tool.
 
 WIP

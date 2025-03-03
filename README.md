@@ -12,7 +12,7 @@ A combined Python/Bash solution for scheduled vulnerability scanning with system
   - PDF report generation
   - Dynamic target input
 
-### **System Manager** (cscan_manager.sh`)
+### **System Manager** (`scan_manager.sh`)
 - Bash automation wrapper
 - Features:
   - Pre-flight dependency checks

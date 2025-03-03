@@ -11,7 +11,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 # Configuration
 TARGETS_FILE = "targets.txt"
 REPORTS_DIR = "reports"
-SCAN_INTERVAL = 86400  # 24 hours in seconds
+SCAN_INTERVAL = 86400  
 
 def create_directories():
     os.makedirs(REPORTS_DIR, exist_ok=True)

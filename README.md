@@ -31,7 +31,7 @@ A combined Python/Bash solution for scheduled vulnerability scanning with system
 ##  Quick Start
 
 1. Clone repository:
-   `git clone https://github.com/yourusername/vuln-scanner-suite.git`
+   `git clone https://github.com/Weedle02/vuln-scanner-suite.git`
    `cd vuln-scanner-suite`
 2. Install Python dependencies:
    `pip install -r requirements.txt`

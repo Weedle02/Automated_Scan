@@ -28,17 +28,6 @@ A combined Python/Bash solution for scheduled vulnerability scanning with system
 | Bash           | 4.4+    | For advanced features         |
 | Make (optional)| 4.2+    | For build automation          |
 
-##  Quick Start
-
-1. Clone repository:
-   `git clone https://github.com/Weedle02/Automated_Scanner.git`
-   `cd Automated_Scanner`
-2. Install Python dependencies:
-   `pip install -r requirements.txt`
-3. Configure targets:
-   `echo "http://test-site.com" > targets.txt`
-4. Run full suite:
-   `./scan_manager.sh`
 
 ## Security Note
 
